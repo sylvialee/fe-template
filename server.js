@@ -6,7 +6,7 @@ var path = require('path');
 var fs = require('fs');
 var mime = require('./mime').types;
 
-var folderPath = '/Users/lixiaojuan/documents/node_server';
+var folderPath = __dirname;
 
 var server = http.createServer(function(request, response){
   var pathname = url.parse(request.url).pathname;
