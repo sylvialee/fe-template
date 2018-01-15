@@ -1,0 +1,532 @@
+html{
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  font-family: microsoft yahei;
+}
+
+body{
+  width: 1920px;
+  height: 1080px;
+  overflow: scroll;
+  position: relative;
+}
+
+
+/* 地图单击浮层样式 */
+.map-dropList{
+  width: 150px;
+  height: 60px;
+  text-align: center;
+  background: transparent;
+  font-size: 14px;
+  line-height: 14px;
+  color: #333;
+  position: relative;
+}
+
+.map-dropList ul li{
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  background: rgba(8, 162, 141, 0.8);
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 45px;
+  transform: scale3d(0.2, 0.2, 1);
+  transition: left .2s ease-in, transform .2s ease-in;
+  cursor: pointer;
+}
+.map-dropList ul li a{
+  color: inherit;
+  text-decoration: none;
+}
+.map-dropList ul li span{
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  background: rgba(8, 162, 141, 0.7);
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  transition: left .2s, top .2s, transform .2s;
+  transform: scale3d(0, 0, 1);
+  display: inline-block;
+}
+
+.map-dropList ul li.pop-list1{
+  transform: scale3d(1, 1, 1);
+  left: 0;
+}
+.map-dropList ul li.pop-list2{
+  transform: scale3d(1, 1, 1);
+  left: 90px;
+}
+.map-dropList ul li.pop-list2 .dot1{
+  transform: scale3d(1, 1, 1);
+  top: -60px;
+}
+
+.map-dropList ul li.pop-list2 .dot2{
+  transform: scale3d(1, 1, 1);
+  left: 70px;
+}
+
+.map-dropList ul li.pop-list2 .dot3{
+  transform: scale3d(1, 1, 1);
+  top: 70px;
+}
+
+/* 检查站信息浮层容器 */
+.container{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width:  600px;
+  max-height: 1020px;
+  /* background: rgba(255,255,255,0.8); */
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.container .header{
+  width: 100%;
+  height: 30px;
+}
+.container .header .left{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  float: left;
+  background: url('../images/left-top.png') no-repeat center center;
+}
+.container .header .right{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  float: right;
+  background: url('../images/right-top.png') no-repeat center center;
+}
+.container .header .center{
+  margin-right: 30px;
+  margin-left: 30px;
+  display: block;
+  height: 30px;
+  background: url('../images/top-line.png') repeat-x center center;
+}
+.container .middle{
+  display: flex;
+}
+.container .middle .left{
+  width: 30px;
+  background: url('../images/left-line.png') repeat-y 1px center;
+}
+.container .card{
+  flex: 1;
+  margin-bottom: 30px;
+}
+.container .middle .right{
+  width: 30px;
+  background: url('../images/right-line.png') repeat-y right center;
+}
+.container .footer{
+  width: 100%;
+  height: 30px;
+  display: flex;
+}
+.container .footer .left{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url('../images/left-bottom.png') no-repeat center center;
+}
+.container .footer .right{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url('../images/right-bottom.png') no-repeat center center;
+}
+.container .footer .bottom-line{
+  height: 30px;
+  flex: 1;
+  display: inline-block;
+  background: url('../images/bottom-line.png') repeat-x center center;
+}
+.container .footer .center{
+  width: 230px;
+  height: 30px;
+  background: url('../images/bottom-shape.png') no-repeat center -1px;
+}
+
+
+/* 信息卡片及列表浮层样式 */
+.context-menu, .content-list{
+  width: 100%;
+  max-height: 500px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.8)
+}
+.context-menu h2, .content-list h2{
+  color: #fff;
+  background: url('../images/title-bg.png') no-repeat bottom center;
+  height: 40px;
+  padding-left: 20px;
+}
+
+
+/* 擦片列表样式 */
+.context-menu .cards-list{
+  width: 100%;
+  max-height: 350px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.context-menu .menu-card{
+  width: 48%;
+  height: 158px;
+  font-size: 14px;
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 2%;
+  border-radius: 5px;
+  padding: 15px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  color: #666;
+  background: url('../images/person-card.png') no-repeat center bottom;
+  position: relative;
+  top: 15px;
+  transition: top .3s ease-in; 
+}
+.context-menu .flowIn{
+  top: 0;
+}
+.context-menu .menu-card:nth-child(2n){
+  margin-right: 0;
+  margin-left: 2%;
+}
+/* .context-menu .menu-card:last-child, .context-menu .menu-card:nth-last-child(2){
+  margin-bottom: 0;
+} */
+.context-menu .menu-card p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #46ceff;
+}
+.context-menu .menu-card p:last-child{
+  position: relative;
+  padding-right: 50px;
+}
+.context-menu .menu-card span{
+    color: #fff;
+}
+.context-menu .menu-card span.info{
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  float: right;
+  line-height: 24px;
+  width: 50px;
+  height: 24px;
+  background: url('../images/detail-blue-normal.png') no-repeat center center/contain;
+  font-size: 12px;
+  color: #fff;
+  vertical-align: top;
+  cursor: pointer;
+  text-align: center;
+}
+.context-menu .menu-card span.info:hover{
+  background: url('../images/detail-blue-hover.png') no-repeat center center/contain;
+}
+.context-menu .menu-card img{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 55px;
+  border: 1px solid #299ce9;
+}
+
+
+
+/* 检查站人员列表 */
+.content-list{
+  border-bottom: 0;
+}
+
+/* 人员table */
+.table-info{
+  table-layout: fixed;
+  margin-top: 20px;
+  /* background: rgba(255,255,255,0.8); */
+  border-radius: 5px;
+}
+
+/* 表格标题行 */
+.table-info thead tr{
+  height: 45px;
+  border-top: 2px solid #403c46;
+  border-bottom: 1px solid #403c46;
+  display: table;
+  table-layout: fixed;
+  color: #46ceff;
+  background: #00182a;
+}
+
+/* 表格内容行 */
+.table-info tbody{
+  max-height: 358px;
+  overflow-y: hidden;
+  display: block;
+}
+.table-info tbody tr{
+  height: 35px;
+  border-bottom: 1px solid #403c46;
+  font-size: 12px;
+  display: table;
+  table-layout: fixed;
+  color: #fff;
+}
+.table-info tbody tr:last-child{
+  border-bottom: 0;
+}
+
+/* 表格单项内容 */
+.table-info th, .table-info td{
+  text-align: center;
+  padding: 0 10px;
+  vertical-align: middle
+}
+.table-info tbody tr td:first-child{
+  width: 80px;
+}
+.table-info tbody tr td:nth-last-child(2){
+  width: 160px;
+}
+.table-info tbody tr td:nth-child(2), .table-info tbody tr td:nth-child(3){
+  width: 50px;
+}
+.table-info tbody tr td:nth-child(4){
+  width: 100px;
+}
+.table-info tbody tr td:last-child{
+  color: #fff;
+  cursor: pointer;
+  width: 60px;
+  background: url('../images/detail-green-normal.png') no-repeat center center;
+}
+.table-info tbody tr td:last-child:hover{
+  color: #fff;
+  cursor: pointer;
+  width: 60px;
+  background: url('../images/detail-green-hover.png') no-repeat center center;
+}
+
+
+/* 嫌疑行内容样式 */
+.table-info tbody tr.danger {
+  color: red;
+}
+
+.table-info tbody tr.danger td:last-child{
+  color: #fff;
+  background: url('../images/detail-red-normal.png') no-repeat center center;
+}
+.table-info tbody tr.danger td:last-child:hover{
+  color: #fff;
+  background: url('../images/detail-red-hover.png') no-repeat center center;
+}
+
+.map-guide{
+  width: 100px;
+  height: 140px;
+  background: rgba(0 ,0 ,0 ,0.8);
+  border: 1px solid #299ce9;
+  border-radius: 8px;
+  padding: 15px;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  font-size: 12px;
+  z-index: 1000;
+}
+.map-guide p{
+  color: #fff;
+  line-height: 30px;
+  font-weight: bold;
+}
+.map-guide ul li{
+  height: 26px;
+  line-height: 26px;
+  color: #fff;
+  text-align: left
+}
+.map-guide ul li .dot{
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 6px;
+  vertical-align: top;
+  margin-top: 8px;
+}
+.map-guide ul li .dot-red{
+  background: red
+}
+.map-guide ul li .dot-green{
+  background: green
+}
+.map-guide ul li .dot-blue{
+  background: blue
+}
+.map-guide ul li .dot-yellow{
+  background: yellow
+}
+
+/* 人员详情弹窗 */
+.pop-container{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1001;
+}
+.pop-container .content{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 2;
+  width: 800px;
+  height: 600px;
+  background: url('../images/detail-box.png') no-repeat center center;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.1);
+  padding-bottom: 20px;
+  color: #fff;
+}
+.close-btn{
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  background: url('../images/close.png') no-repeat center center/contain;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  cursor: pointer;
+  opacity: 0;
+}
+.pop-container .content h2{
+  height: 80px;
+  line-height: 90px;
+  margin-bottom: 0px;
+  font-size: 25px;
+  text-align: center
+}
+.left-info{
+  width: 40%;
+  padding: 20px 40px;
+  float: left;
+  font-size: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.left-info img{
+  position: absolute;
+  right: 40px;
+  top: 30px;
+  width: 60px;
+  max-height: 60px;
+  border:  1px solid #299ce9;
+}
+.left-info p{
+  line-height: 1.5;
+  font-size: 14px;
+  color: #46ceff;
+  margin: 10px 0;
+  padding-left: 20px;
+}
+.left-info p span{
+  color: #fff;
+}
+
+.right-pic{
+  width: 60%;
+  float: right;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  padding-left: 45px;
+}
+.right-pic ul li{
+  font-size: 16px;
+  color: #46ceff;
+  height: 251px;
+}
+.right-pic ul li p.station-pic{
+  text-align: left;
+}
+.right-pic ul li img{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  max-width: 90%; 
+  max-height: 200px;
+  border: 1px solid #299ce9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

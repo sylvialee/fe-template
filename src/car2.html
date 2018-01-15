@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta  charset="utf-8" />
+    <title>安全系统模块</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <!-- BEGIN MAP STYLES -->
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/ol.css" rel="stylesheet" type="text/css">
+    <link href="css/map.css" rel="stylesheet" type="text/css">
+    <link href="css/calendar.css" rel="stylesheet" type="text/css">
+    <link href="css/car2.css" rel="stylesheet" type="text/css">
+    <!-- END MAP STYLES -->
+  </head>
+  <!-- END HEAD -->
+  <!-- BEGIN BODY -->
+  <body class="page-header-fixed">
+
+    <div id="omap" class="omap"></div>
+    <div id="contextmenu_container">
+
+    </div>
+
+    <div class="container">
+       <div class="card">
+        <div class="header">
+          <div class="left"></div>
+          <div class="right"></div>
+          <div class="center"></div>
+        </div>
+        <div class="middle">
+          <div class="left"></div>
+          <div class="context-menu">
+            <p>
+              <input type="text" placeholder="请输入车牌号" id="userId" class="id-box">
+              <span class="search-btn" id="searchBtn">查询轨迹</span>
+              <span id="tips" class="tips"></span>
+            </p>
+          </div>
+          <div class="right"></div>
+        </div>
+        <div class="footer">
+          <div class="left"></div>
+          <div class="bottom-line"></div>
+          <div class="center"></div>
+          <div class="bottom-line"></div>
+          <div class="right"></div>
+        </div>
+      </div>
+    </div>  
+    
+    <div class="map-guide">
+      <p>图例</p>
+      <ul>
+        <li><i class="dot dot-red"></i>电子警察</li>
+        <li><i class="dot dot-green"></i>视频监控</li>
+        <li><i class="dot dot-blue"></i>治安卡口</li>
+      </ul>
+    </div>
+    
+    <div class="choose-time">
+      <div class="card">
+        <div class="header">
+          <div class="left"></div>
+          <div class="right"></div>
+          <div class="center"></div>
+        </div>
+        <div class="middle">
+          <div class="left"></div>
+          <div class="time-radio">
+            <span class="option-time"><i class="radio radio-check"></i><label for="today">一天</label></span>
+            <span class="option-time"><i class="radio"></i><label for="month">一个月</label></span>
+            <span class="option-time"><i class="radio"></i><label for="year">一年</label></span>
+            <span class="option-time"><i class="radio" id="customize"></i><label for="customize">自定义</label></span>
+            <div class="customize">
+              <div class="calendar-start">
+                <input type="text" readonly class="input-date" id="dt_start" placeholder="开始时间">
+                <div class="pop-start hide" id="dd_start"></div>
+              </div>
+              ~ 
+              <div class="calendar-end">
+                <input type="text" readonly class="input-date" id="dt_end" placeholder="结束时间">
+                <div class="pop-end hide" id="dd_end"></div>
+              </div>
+            </div>
+          </div>
+            
+          <div class="right"></div>
+        </div>
+        <div class="footer">
+          <div class="left"></div>
+          <div class="bottom-line"></div>
+          <div class="center"></div>
+          <div class="bottom-line"></div>
+          <div class="right"></div>
+        </div>
+      </div>
+    </div>
+        
+    <!-- END BODY -->
+    <div id="infoPop" class="pop-container hide">
+      <div class="content">
+        <p>
+          <img src="">
+          <span id="closeInfoPopBtn" class="close-btn"></span>
+        </p>
+      </div>
+    </div>
+  
+    <!-- BEGIN CORE PLUGINS -->
+    <script src="js/jquery-1.10.1.min.js" type="text/javascript"></script>
+
+    <!-- BEGIN MAP SCRIPTS -->
+    <script src="js/data.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+    <script src="js/ol.js" type="text/javascript"></script>
+    <script src="js/omap.js" type="text/javascript"></script>
+    <script src="js/map.min.js" type="text/javascript"></script>
+    <script src="js/cluster.js" type="text/javascript"></script>
+    <script src="js/calendar.js" type="text/javascript"></script>
+    <!--END MAP SCRIPTS -->
+    
+    <!-- 当前页面内容js部分 -->
+    <script src="js/car2Data.js" type="text/javascript"></script>
+    <script src="js/car2.js" type="text/javascript"></script>
+
+  </body>
+
+</html>

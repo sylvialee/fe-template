@@ -1,0 +1,930 @@
+{
+  "checkStation":[
+    {
+      "stationId": 1234,
+      "stationName": "北京检查站",
+      "personList":[
+          {
+            "id": "110108123456789012",
+            "name": "张三",
+            "age": "21",
+            "gender": "男",
+            "headPic": "images/head.png",
+            "isDanger": true,
+            "dangerReason": "drug and gun",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": true,
+            "dangerReason": "",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "三号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "三号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "三号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": true,
+            "dangerReason": "",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": true,
+            "dangerReason": "",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "三号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          }
+        ]
+    },
+    {
+      "stationId": 1234,
+      "stationName": "北京检查站",
+      "personList":[
+          {
+            "id": "110108123456789012",
+            "name": "张三",
+            "age": "21",
+            "gender": "男",
+            "headPic": "images/head.png",
+            "isDanger": true,
+            "dangerReason": "drug and gun",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": true,
+            "dangerReason": "",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "三号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "三号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "三号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": true,
+            "dangerReason": "",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": true,
+            "dangerReason": "",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "三号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          }
+        ]
+    },
+    {
+      "stationId": 1234,
+      "stationName": "北京检查站",
+      "personList":[
+          {
+            "id": "110108123456789012",
+            "name": "张三",
+            "age": "21",
+            "gender": "男",
+            "headPic": "images/head.png",
+            "isDanger": true,
+            "dangerReason": "drug and gun",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": true,
+            "dangerReason": "",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "三号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "三号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "三号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": true,
+            "dangerReason": "",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": true,
+            "dangerReason": "",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "三号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          }
+        ]
+    },
+    {
+      "stationId": 1234,
+      "stationName": "北京检查站",
+      "personList":[
+          {
+            "id": "110108123456789012",
+            "name": "张三",
+            "age": "21",
+            "gender": "男",
+            "headPic": "images/head.png",
+            "isDanger": true,
+            "dangerReason": "drug and gun",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": true,
+            "dangerReason": "",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "三号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "三号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "三号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": true,
+            "dangerReason": "",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": true,
+            "dangerReason": "",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "二号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "三号车站"
+          },
+          {
+            "id": "",
+            "name": "",
+            "age": "",
+            "gender": "",
+            "headPic": "images/head.png",
+            "isDanger": false,
+            "dangerReason": "无",
+            "XRayPic": "images/X-ray.png",
+            "mmRayPic": "images/mm-ray.png",
+            "checkStation": "一号车站"
+          }
+        ]
+    }
+  ],
+
+  "trainStation": [
+    {
+      "stationId": 3232,
+      "stationName": "北京火车站",
+      "personList":[
+        {
+
+        }
+      ]
+    }
+  ],
+
+  "airport": [
+    {
+      "stationId": 2232,
+      "stationName": "首都T3航站楼",
+      "personList":[
+        {
+
+        }
+      ]
+    }
+
+  ],
+
+  "buildings": [
+    {
+      "stationId": 1232,
+      "stationName": "人民大会堂",
+      "personList":[
+        {
+
+        }
+      ]
+    }
+
+  ]
+}
